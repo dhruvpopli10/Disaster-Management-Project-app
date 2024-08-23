@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Disaster Management</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+        <nav>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <form id="disasterForm">
+            <label for="disasterType">Disaster Type</label>
+            <input type="text" id="disasterType" name="disasterType" required>
+
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="weather">Weather Prediction</label>
+            <input type="text" id="weather" name="weather" required>
+
+            <label for="safety">Safety Prediction</label>
+            <input type="text" id="safety" name="safety" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <!-- <footer>
+        <p>&copy; 2024 Disaster Management System</p> -->
+    <!-- </footer>  -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
